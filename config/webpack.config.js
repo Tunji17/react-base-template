@@ -67,7 +67,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new FriendlyErrorsWebpackPlugin({
       compilationSuccessInfo: {
-        messages: ['Your application is running here http://localhost:8080'],
+        messages: ['Your application is running here http://localhost:1234'],
       },
     }),
   ],

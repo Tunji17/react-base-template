@@ -5,6 +5,7 @@ This is a base configuration to start React projects.
 ## Setting up 
 
 `$ git clone url
+
 `$ npm install
 
 ## Commands
@@ -22,7 +23,7 @@ Any build errors will appear in the browser or console.
 
 The project is linted through [AirBnB](https://github.com/airbnb/javascript).  Test files are ignored.
 
-### `npm t` or `npm test`
+### `npm test`
 
 Runs the tests for your application using [Jest](https://jestjs.io/docs/en/getting-started) and [Enzyme](https://airbnb.io/enzyme/) for unit and snapshot testing.
 
@@ -45,12 +46,6 @@ The `config/` directory holds all the Webpack configuration files.
 ### `src/`
 
 The `src/` directory contains all the source code for your application as well as any unit tests.  Jest will scan for any directory called `__tests__` for tests.
-
-- `components/` base component folder.
-- `App.css` root CSS file.
-- `App.jsx` application root React component.
-- `index.js` application root.
-- `setupTests.js` file to setup testing environment and Enzyme.
 
 ### `public/`
 
